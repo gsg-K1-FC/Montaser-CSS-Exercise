@@ -1,0 +1,64 @@
+body{
+
+    margin: 30px;
+}
+h2{
+    font-family: sans-serif;
+}
+
+h2:hover{
+color: green;
+}
+
+section p::selection {
+        color: white;
+        background: goldenrod;
+}
+
+section p::after { 
+    content: " Read More >>";
+    color: blue;
+  }
+
+.section1 p::first-letter{
+    font-size: 30px;
+    color: white;
+    background-color: black;
+}
+
+.section2 p::first-letter{
+    font-size: 30px;
+    color: black;
+    background-color: white;
+}
+
+
+.section1{
+    background-color: #DFE6E9;
+    width: 1300px;
+    height: 470px;
+    margin: 30px;
+    padding: 30px;
+}
+
+.section1 img{
+    width: 600px;
+    height: 250px;
+    padding-left: 35px;
+
+}
+
+.section2 {
+    background-color: #30336B;
+    width: 1300px;
+    height: 470px;
+    padding: 30px;
+    margin: 30px;
+    color: white;
+}
+
+.section2 img{
+    width: 600px;
+    height: 250px;
+    padding-left: 35px;
+}
